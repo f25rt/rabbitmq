@@ -14,11 +14,9 @@ import java.io.InputStreamReader;
 @SpringBootApplication
 public class CodingExerciseApplication  implements CommandLineRunner{
 	private final ProduceService producer;
-	private final OrderProcessingModule orderProcessingModule;
 
-    public CodingExerciseApplication(ProduceService producer, OrderProcessingModule orderProcessingModule) {
+    public CodingExerciseApplication(ProduceService producer) {
         this.producer = producer;
-        this.orderProcessingModule = orderProcessingModule;
     }
 
     public static void main(String[] args) {
