@@ -1,6 +1,5 @@
 package com.coding.exercise.coding_exercise;
 
-import com.coding.exercise.coding_exercise.OrderProcessing.OrderProcessingModule;
 import com.coding.exercise.coding_exercise.Producer.ProduceService;
 
 import org.springframework.boot.CommandLineRunner;
